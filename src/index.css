@@ -6,13 +6,19 @@ div.in{
     justify-content: center;
     
 }
-.button{
-    margin: 50px;
+.buttons{
+    border: 250px solid white;
+
+}
+#reg{
+    margin-left: 10px;
 }
 
-form{
+#log{
     /* display: block; */
     justify-content: center;
     position: relative;
     vertical-align: middle;
+    border-left: 100px;
+    border-color: white;
 }

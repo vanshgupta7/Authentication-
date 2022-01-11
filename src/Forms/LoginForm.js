@@ -40,7 +40,7 @@ function LoginForm() {
     return (
         <div className="card col-12 col-lg-4 login-card mt-2 hv-center">
             <center>
-                <form >
+                <form id='log'>
                     <div className="form-group text-left">
                         <label htmlFor="exampleInputEmail1">Username</label>
                         <input type="text"

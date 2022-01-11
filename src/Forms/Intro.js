@@ -7,7 +7,10 @@ function Intro() {
             <div className="buttons">
 
                 <button type='' className="btn btn-primary" onClick={() => navigate('/Login')}>Login</button>
-                <button type='' className="btn btn-primary" onClick={() => navigate('/Register')}>Register</button>
+                <span id="reg">
+
+                    <button type='' className="btn btn-primary" onClick={() => navigate('/Register')}>Register</button>
+                </span>
             </div>
 
         </div>
